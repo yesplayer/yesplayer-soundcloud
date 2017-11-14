@@ -90,6 +90,29 @@ const soundcloudDl = {
 				});
 			});
 		});
+	},
+
+	_search(query){
+		return new Promise(function(resolve, reject){
+			request("https://api-v2.soundcloud.com/search?q="+query+"&limit=200&client_id="+soundcloudDl._clientId, function (error, response, body) {
+				resolve(JSON.parse(body));
+			});
+		});
+	},
+	search: function(query){
+		return new Promise(function(resolve, reject){
+			if(soundcloudDl._clientId){
+				soundcloudDl._search(query).then(function(results){
+					resolve(results);
+				});
+			} else {
+				soundcloudDl.getClientId().then(function(){
+					soundcloudDl._search(query).then(function(results){
+						resolve(results);
+					});
+				});
+			}
+		});
 	}
 };
 

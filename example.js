@@ -8,3 +8,7 @@ soundcloudDl.getSongDlByURL("https://m.soundcloud.com/mostafa-p-samir/mgk-swing-
 	console.log(song)
 });
 
+soundcloudDl.search("swing").then(function(results){
+	console.log(results);
+});
+
