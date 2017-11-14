@@ -1,4 +1,4 @@
-# soundcloud-dl
+# yesplayer-soundcloud
 
 <!-- vim-markdown-toc GFM -->
 
