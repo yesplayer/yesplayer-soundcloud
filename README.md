@@ -1,5 +1,11 @@
 # soundcloud-dl
 
+## Installation
+
+```bash
+npm install soundcloud-dl --save
+```
+
 ## Example
 
 ```javascript
