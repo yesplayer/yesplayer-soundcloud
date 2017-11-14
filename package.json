@@ -1,7 +1,7 @@
 {
-  "name": "soundcloud-dl",
+  "name": "yesplayer-soundcloud",
   "version": "1.0.3",
-  "description": "Soundcloud downloader",
+  "description": "Soundcloud API for yesplayer",
   "main": "index.js",
   "author": "nemanjan00",
   "license": "MIT",
