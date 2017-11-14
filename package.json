@@ -1,0 +1,12 @@
+{
+  "name": "soundcloud-dl",
+  "version": "1.0.0",
+  "description": "Soundcloud downloader",
+  "main": "index.js",
+  "author": "nemanjan00",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
