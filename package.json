@@ -1,6 +1,6 @@
 {
   "name": "soundcloud-dl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Soundcloud downloader",
   "main": "index.js",
   "author": "nemanjan00",
